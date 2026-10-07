@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:07,167
+Every export shipment lives in ten places: a spreadsheet, the ERP, a shared drive and a dozen inboxes.
+
+2
+00:00:07,167 --> 00:00:12,111
+EOT-PCS puts it in one controlled record, from proforma invoice to payment.
+
+3
+00:00:12,111 --> 00:00:17,056
+Customer, order and invoice values come from Oracle, read-only. Nothing is re-keyed.
+
+4
+00:00:17,056 --> 00:00:22,000
+Rules decide which documents each shipment needs: customer, country, Incoterms and transport.
+
+5
+00:00:21,1000 --> 00:00:26,944
+If a mandatory document is missing, the package simply can't be submitted.
+
+6
+00:00:26,944 --> 00:00:32,630
+The person who prepared it can never approve it. AI findings are flagged first.
+
+7
+00:00:32,630 --> 00:00:37,574
+Every upload is checksummed and versioned, and replacing one needs a reason.
+
+8
+00:00:37,574 --> 00:00:43,259
+Balances, reminders and escalations run themselves, and every action is in the audit log.
+
+9
+00:00:43,259 --> 00:00:49,344
+EOT-PCS is in pilot with BigMo. Book a walkthrough on your own document rules.

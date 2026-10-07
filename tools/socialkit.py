@@ -302,56 +302,57 @@ def _ease(t):
     return 1 - (1 - t) ** 3 if t < 1 else 1.0
 
 
+def _frame(sc, i, total, size):
+    W, H = size
+    fr = sc._rgb
+    t = _ease(i / max(1, total - 1))
+    if sc.move == "up" and fr.size[1] > H:
+        sw = W / fr.size[0]
+        big = fr if sw == 1 else fr.resize((W, int(fr.size[1] * sw)))
+        y = int((big.size[1] - H) * t)
+        return big.crop((0, y, W, y + H))
+    if sc.move in ("in", "out"):
+        z = 1 + (sc.zoom - 1) * (t if sc.move == "in" else 1 - t)
+        cw, ch = fr.size[0] / z, fr.size[1] / z
+        x0, y0 = (fr.size[0] - cw) / 2, (fr.size[1] - ch) / 2
+        return fr.resize(size, Image.BICUBIC, box=(x0, y0, x0 + cw, y0 + ch))
+    return fr if fr.size == size else fr.resize(size)
+
+
 def render_video(scenes, size, out_path, fps=30, xfade=0.35, crf=20):
-    """Render scenes to MP4 by rasterising every frame (exact easing, no zoompan jitter)."""
+    """Rasterise every frame with Pillow (eased push-in/out, cross-fades) and stream it to ffmpeg.
+
+    Frames are generated and written one at a time, so memory stays flat however long
+    the video is (the previous version held every frame in memory).
+    """
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    W, H = size
-    tmp = Path(tempfile.mkdtemp(prefix="sk-"))
-    n = 0
-    rendered = []
-    for sc in scenes:
-        fr = sc.frame.convert("RGB")
-        total = max(1, int(sc.secs * fps))
-        seq = []
-        for i in range(total):
-            t = _ease(i / max(1, total - 1))
-            if sc.move == "up" and fr.size[1] > H:
-                s = W / fr.size[0]
-                big = fr if s == 1 else fr.resize((W, int(fr.size[1] * s)))
-                y = int((big.size[1] - H) * t)
-                f = big.crop((0, y, W, y + H))
-            elif sc.move in ("in", "out"):
-                z = 1 + (sc.zoom - 1) * (t if sc.move == "in" else 1 - t)
-                cw, ch = fr.size[0] / z, fr.size[1] / z
-                x0, y0 = (fr.size[0] - cw) / 2, (fr.size[1] - ch) / 2
-                f = fr.resize(size, Image.BICUBIC, box=(x0, y0, x0 + cw, y0 + ch))
-            else:
-                f = fr if fr.size == size else fr.resize(size)
-            seq.append(f)
-        rendered.append(seq)
-    # cross-fade between scenes
+    proc = subprocess.Popen([
+        "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
+        "-s", f"{size[0]}x{size[1]}", "-r", str(fps), "-i", "-",
+        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", str(crf), "-preset", "medium",
+        "-movflags", "+faststart", str(out_path)], stdin=subprocess.PIPE)
     xf = int(xfade * fps)
-    frames = []
-    for si, seq in enumerate(rendered):
-        if si == 0 or xf == 0:
-            frames.extend(seq)
-            continue
-        prev_tail = frames[-xf:]
-        del frames[-xf:]
-        for k in range(xf):
-            a = (k + 1) / (xf + 1)
-            frames.append(Image.blend(prev_tail[k], seq[min(k, len(seq) - 1)], a))
-        frames.extend(seq[xf:])
-    for f in frames:
-        f.save(tmp / f"f{n:05d}.png", compress_level=1)
-        n += 1
-    subprocess.run([
-        "ffmpeg", "-y", "-loglevel", "error", "-framerate", str(fps), "-i", str(tmp / "f%05d.png"),
-        "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", str(crf), "-preset", "slow",
-        "-movflags", "+faststart", str(out_path)], check=True)
-    # poster / cover
-    shutil.rmtree(tmp, ignore_errors=True)
+    for sc in scenes:
+        sc._rgb = sc.frame.convert("RGB")
+    try:
+        for si, sc in enumerate(scenes):
+            total = max(1, int(sc.secs * fps))
+            nxt = scenes[si + 1] if si + 1 < len(scenes) else None
+            ntotal = max(1, int(nxt.secs * fps)) if nxt else 0
+            start = xf if si > 0 else 0  # these frames were emitted inside the previous cross-fade
+            for i in range(start, total):
+                f = _frame(sc, i, total, size)
+                k = i - (total - xf)
+                if nxt is not None and k >= 0:
+                    f = Image.blend(f, _frame(nxt, k, ntotal, size), (k + 1) / (xf + 1))
+                proc.stdin.write(f.tobytes())
+    finally:
+        proc.stdin.close()
+        for sc in scenes:
+            sc.__dict__.pop("_rgb", None)
+    if proc.wait() != 0:
+        raise RuntimeError("ffmpeg failed")
     return out_path
 
 
