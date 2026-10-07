@@ -13,6 +13,9 @@ Social campaign kits for BigMo products — ready-to-post Instagram and LinkedIn
 | 7 | Ledger Book (`LedgerBookPilot`) | [`campaigns/ledgerbook`](campaigns/ledgerbook/CAMPAIGN.md) | ✅ ready |
 | ★ | **BigMo umbrella** — all seven, one rule | [`campaigns/bigmo`](campaigns/bigmo/CAMPAIGN.md) | ✅ ready |
 
+## Post text
+Every campaign has a **`POSTS.md`** — ready-to-paste text for every asset (LinkedIn, Instagram, stories, reels, month-two, explainers), with first comments, alt text and that product's rules. Start with [`campaigns/bigmo/POSTS.md`](campaigns/bigmo/POSTS.md).
+
 ## Email sequences
 See [`EMAILS.md`](EMAILS.md) — an automated sequence per product (`campaigns/<app>/EMAILS.md`): trigger, goal, exit conditions, cadence, and subject / preview / body / CTA for every email.
 
