@@ -140,6 +140,12 @@ def tamil(img, xy, s, size, col=KARUPATTI):
     return f.getlength(s)
 
 
+def fira_like(size, weight=400):
+    """Inter at a (possibly float) size — used by designed illustration cards."""
+    name = {400: "Regular", 500: "Medium", 600: "SemiBold"}[weight]
+    return ImageFont.truetype(INTER + f"Inter-{name}.otf", max(8, int(size)))
+
+
 def kick(img, xy, s, size, col=GREEN):
     f = ImageFont.truetype(INTER + "Inter-SemiBold.otf", size)
     sk.draw_text(img, xy, s.upper(), f, rgb(col), tracking_px=size * .16)
