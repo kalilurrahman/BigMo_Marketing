@@ -12,7 +12,7 @@ Customer, order and invoice values come from Oracle, read-only. Nothing is re-ke
 00:00:17.056 --> 00:00:22.000
 Rules decide which documents each shipment needs: customer, country, Incoterms and transport.
 
-00:00:21.1000 --> 00:00:26.944
+00:00:22.000 --> 00:00:26.944
 If a mandatory document is missing, the package simply can't be submitted.
 
 00:00:26.944 --> 00:00:32.630
