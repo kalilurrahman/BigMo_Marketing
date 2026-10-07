@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:03,833
+Markets talk all day. Most of it is noise.
+
+2
+00:00:03,833 --> 00:00:09,519
+AI MarketPulse reads RSS, email, Telegram, Reddit and SEC filings into one scored queue.
+
+3
+00:00:09,519 --> 00:00:15,204
+The AI turns each item into a structured signal, and shows why it fired.
+
+4
+00:00:15,204 --> 00:00:19,778
+TradeOS runs research and a bull-versus-bear debate before reaching a verdict.
+
+5
+00:00:19,778 --> 00:00:24,722
+Then seventeen deterministic pre-trade checks decide. Overrides can't bypass the risk core.
+
+6
+00:00:24,722 --> 00:00:29,667
+Loss limits, drawdown caps, and a kill switch you can actually reach.
+
+7
+00:00:29,667 --> 00:00:34,611
+Everything starts on paper. Going live means meeting a published five-step ladder.
+
+8
+00:00:34,611 --> 00:00:38,815
+Every decision carries one trace ID, from headline to order.
+
+9
+00:00:38,815 --> 00:00:42,278
+The AI interprets. Code decides. Everything is logged.
+
+10
+00:00:42,278 --> 00:00:46,141
+Paper-trading simulation. Not financial advice. Educational use only.
