@@ -16,6 +16,9 @@ Social campaign kits for BigMo products — ready-to-post Instagram and LinkedIn
 ## Post text
 Every campaign has a **`POSTS.md`** — ready-to-paste text for every asset (LinkedIn, Instagram, stories, reels, month-two, explainers), with first comments, alt text and that product's rules. Start with [`campaigns/bigmo/POSTS.md`](campaigns/bigmo/POSTS.md).
 
+## Email sequences
+See [`EMAILS.md`](EMAILS.md) — an automated sequence per product (`campaigns/<app>/EMAILS.md`): trigger, goal, exit conditions, cadence, and subject / preview / body / CTA for every email.
+
 ## Other platforms
 See [`PLATFORMS.md`](PLATFORMS.md) — X, Facebook, YouTube (incl. Shorts) and TikTok: file mapping, rendered banners/headers/thumbnails (`tools/platforms.py`) and per-product copy.
 
