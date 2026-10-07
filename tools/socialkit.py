@@ -327,11 +327,14 @@ def render_video(scenes, size, out_path, fps=30, xfade=0.35, crf=20):
     """
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    # write to a git-ignored .partial.mp4 and rename when complete, so a half-written
+    # video never shows up as a finished file (or gets committed)
+    part = out_path.with_name(out_path.stem + ".partial.mp4")
     proc = subprocess.Popen([
         "ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
         "-s", f"{size[0]}x{size[1]}", "-r", str(fps), "-i", "-",
         "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", str(crf), "-preset", "medium",
-        "-movflags", "+faststart", str(out_path)], stdin=subprocess.PIPE)
+        "-movflags", "+faststart", str(part)], stdin=subprocess.PIPE)
     xf = int(xfade * fps)
     for sc in scenes:
         sc._rgb = sc.frame.convert("RGB")
@@ -352,7 +355,9 @@ def render_video(scenes, size, out_path, fps=30, xfade=0.35, crf=20):
         for sc in scenes:
             sc.__dict__.pop("_rgb", None)
     if proc.wait() != 0:
+        part.unlink(missing_ok=True)
         raise RuntimeError("ffmpeg failed")
+    part.replace(out_path)
     return out_path
 
 
