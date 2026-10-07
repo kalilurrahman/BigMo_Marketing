@@ -1,0 +1,1481 @@
+{
+ "collections": [
+  {
+   "id": "karupatti",
+   "name": "Karupatti Specials",
+   "tamil": "கருப்பட்டி",
+   "tagline": "Palm-jaggery sweets, zero refined sugar",
+   "accent": "#8a4a1c"
+  },
+  {
+   "id": "sweets",
+   "name": "Traditional Sweets",
+   "tamil": "இனிப்புகள்",
+   "tagline": "The festival counter, made fresh weekly",
+   "accent": "#c4841d"
+  },
+  {
+   "id": "savouries",
+   "name": "Savouries & Snacks",
+   "tamil": "காரம்",
+   "tagline": "Murukku, mixture, thattai, pakoda",
+   "accent": "#b4651b"
+  },
+  {
+   "id": "podis",
+   "name": "Podis & Spice Blends",
+   "tamil": "பொடிகள்",
+   "tagline": "Idli podi, murungai podi, rasam podi",
+   "accent": "#a5321a"
+  },
+  {
+   "id": "pickles",
+   "name": "Pickles & Thokkus",
+   "tamil": "ஊறுகாய்",
+   "tagline": "Avakkai, maavadu, thokku, narthangai",
+   "accent": "#8c2f14"
+  },
+  {
+   "id": "millets",
+   "name": "Millet Range",
+   "tamil": "சிறுதானியம்",
+   "tagline": "Ragi, kambu, thinai, varagu, samai",
+   "accent": "#7a6a2f"
+  },
+  {
+   "id": "combos",
+   "name": "Gift Boxes & Combos",
+   "tamil": "பரிசு பெட்டி",
+   "tagline": "Samplers, hampers, festival boxes",
+   "accent": "#9c3a1c"
+  }
+ ],
+ "products": [
+  {
+   "sku": "KAR-HAL-01",
+   "name": "Karupatti Halwa",
+   "tamil": "கருப்பட்டி அல்வா",
+   "collection": "karupatti",
+   "bestseller": true,
+   "blurb": "Glossy palm-jaggery halwa, slow-stirred in ghee until it holds a clean cut.",
+   "leadDays": 4,
+   "diet": [
+    "no-refined-sugar",
+    "jaggery"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-BUR-02",
+   "name": "Karupatti Burfi",
+   "tamil": "கருப்பட்டி பர்பி",
+   "collection": "karupatti",
+   "bestseller": true,
+   "blurb": "Coconut and palm jaggery set into soft, fudgy diamonds.",
+   "leadDays": 3,
+   "diet": [
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-ELL-03",
+   "name": "Karupatti Ellu Urundai",
+   "tamil": "கருப்பட்டி எள்ளுருண்டை",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "Roasted black sesame rolled with palm jaggery — iron, calcium, done.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-ADH-04",
+   "name": "Karupatti Adhirasam",
+   "tamil": "கருப்பட்டி அதிரசம்",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "The festival doughnut of Tamil Nadu, made the harder way with karupatti.",
+   "leadDays": 5,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-MIT-05",
+   "name": "Karupatti Mittai",
+   "tamil": "கருப்பட்டி மிட்டாய்",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "Hard palm-jaggery toffee with a whisper of dry ginger.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-CHI-06",
+   "name": "Karupatti Kadalai Mittai",
+   "tamil": "கருப்பட்டி கடலை மிட்டாய்",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "Peanut brittle set in palm jaggery instead of sugar syrup.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free",
+    "high-protein"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-RAG-07",
+   "name": "Karupatti Ragi Laddu",
+   "tamil": "கருப்பட்டி ராகி லட்டு",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "Finger millet roasted in ghee, bound with palm jaggery and almonds.",
+   "leadDays": 4,
+   "diet": [
+    "no-refined-sugar",
+    "jaggery",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "KAR-PORI-08",
+   "name": "Karupatti Pori Urundai",
+   "tamil": "கருப்பட்டி பொரி உருண்டை",
+   "collection": "karupatti",
+   "bestseller": false,
+   "blurb": "Puffed paddy rice balls — the Karthigai Deepam sweet.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-MYS-01",
+   "name": "Ghee Mysore Pak",
+   "tamil": "நெய் மைசூர்பாக்",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "The porous, melting kind — three ingredients and a lot of nerve.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-ADH-02",
+   "name": "Adhirasam",
+   "tamil": "அதிரசம்",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Rice and jaggery dough, rested overnight and fried to order.",
+   "leadDays": 5,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-JAN-03",
+   "name": "Jangiri",
+   "tamil": "ஜாங்கிரி",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Urad dal batter piped into rosettes and soaked in saffron syrup.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-BOO-04",
+   "name": "Boondi Laddu",
+   "tamil": "பூந்தி லட்டு",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Temple-style laddu with cashew, raisin and a clove pressed in.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-RAV-05",
+   "name": "Rava Laddu",
+   "tamil": "ரவா லட்டு",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Semolina roasted in ghee with coconut and cashew.",
+   "leadDays": 3,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-BES-06",
+   "name": "Besan Laddu",
+   "tamil": "கடலைமாவு லட்டு",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Gram flour roasted low and slow until it smells of toffee.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-KAJ-07",
+   "name": "Kaju Katli",
+   "tamil": "முந்திரி பர்பி",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Cashew and sugar, rolled paper-thin and cut on the diagonal.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-TIR-08",
+   "name": "Tirunelveli Halwa",
+   "tamil": "திருநெல்வேலி அல்வா",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Wheat halwa with the famous bounce, stirred for hours.",
+   "leadDays": 4,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-BAD-09",
+   "name": "Badam Halwa",
+   "tamil": "பாதாம் அல்வா",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Blanched almond halwa with saffron — dense, rich, and not shy.",
+   "leadDays": 4,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-ASH-10",
+   "name": "Ashoka Halwa",
+   "tamil": "அசோகா அல்வா",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Moong dal halwa from the Thanjavur wedding kitchen.",
+   "leadDays": 4,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-THE-11",
+   "name": "Therattipal",
+   "tamil": "தேரட்டிப்பால்",
+   "collection": "sweets",
+   "bestseller": true,
+   "blurb": "Milk reduced to fudge over three hours, nothing added but sugar.",
+   "leadDays": 4,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-PED-12",
+   "name": "Milk Peda",
+   "tamil": "பால் பேடா",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Soft khoya rounds with a thumbprint and a pistachio.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-COC-13",
+   "name": "Coconut Burfi",
+   "tamil": "தேங்காய் பர்பி",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Fresh coconut and sugar set soft, never chalky.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-KAL-14",
+   "name": "Kalakand",
+   "tamil": "கலாகண்ட்",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Grainy milk cake, set in squares, scattered with pistachio.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-BADU-15",
+   "name": "Badusha",
+   "tamil": "பாதுஷா",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Flaky layered rounds, fried slow and glazed in light syrup.",
+   "leadDays": 3,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-GUL-16",
+   "name": "Gulab Jamun (dry pack)",
+   "tamil": "குலாப் ஜாமூன்",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Khoya jamuns packed in just enough syrup to travel.",
+   "leadDays": 3,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-MAN-17",
+   "name": "Manoharam",
+   "tamil": "மனோகரம்",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Murukku broken into jaggery syrup and pressed into balls.",
+   "leadDays": 4,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SWT-VER-18",
+   "name": "Verkadalai Urundai",
+   "tamil": "வேர்க்கடலை உருண்டை",
+   "collection": "sweets",
+   "bestseller": false,
+   "blurb": "Peanut and jaggery balls — the original protein bite.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free",
+    "high-protein"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-MIX-01",
+   "name": "Special Mixture",
+   "tamil": "ஸ்பெஷல் மிக்சர்",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "Six components, fried separately, tossed together the same hour.",
+   "leadDays": 2,
+   "diet": [
+    "vegan"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-MAD-02",
+   "name": "Madras Mixture",
+   "tamil": "மெட்ராஸ் மிக்சர்",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "The hotter mixture — heavier on chilli, curry leaf and garlic.",
+   "leadDays": 2,
+   "diet": [
+    "vegan"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "SAV-RIB-03",
+   "name": "Ribbon Pakoda",
+   "tamil": "ஓலை பக்கோடா",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "Flat, wide ribbons of rice and gram flour. Endlessly snackable.",
+   "leadDays": 2,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-OMA-04",
+   "name": "Omapodi",
+   "tamil": "ஓமப்பொடி",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Fine gram-flour sev scented with ajwain.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "SAV-KAR-05",
+   "name": "Kara Sev",
+   "tamil": "காரச்சேவ்",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Thick, craggy sev with pepper and garlic through it.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "SAV-BUT-06",
+   "name": "Butter Murukku",
+   "tamil": "வெண்ணெய் முறுக்கு",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "Short, crumbly murukku that dissolves rather than crunches.",
+   "leadDays": 2,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "SAV-THE-07",
+   "name": "Thenkuzhal Murukku",
+   "tamil": "தேன்குழல் முறுக்கு",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Hollow three-hole murukku, mild and cumin-scented.",
+   "leadDays": 2,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "SAV-MUL-08",
+   "name": "Mullu Murukku",
+   "tamil": "முள்ளு முறுக்கு",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "The thorned spiral — coarser, crunchier, built on fried gram.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-KAI-09",
+   "name": "Kai Murukku",
+   "tamil": "கை முறுக்கு",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Twisted entirely by hand — no press, no plate, no shortcuts.",
+   "leadDays": 4,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "SAV-THA-10",
+   "name": "Thattai",
+   "tamil": "தட்டை",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "Flat, brittle discs studded with chana dal and curry leaf.",
+   "leadDays": 2,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-NIP-11",
+   "name": "Peanut Nippattu",
+   "tamil": "நிப்பட்டு",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Karnataka's thattai — thicker, with split peanuts on top.",
+   "leadDays": 2,
+   "diet": [
+    "vegan"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-UPP-12",
+   "name": "Uppu Seedai",
+   "tamil": "உப்பு சீடை",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Small savoury spheres for Gokulashtami, made the careful way.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "SAV-VEL-13",
+   "name": "Vella Seedai",
+   "tamil": "வெல்ல சீடை",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "The sweet seedai — jaggery, coconut and cardamom.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "no-refined-sugar",
+    "jaggery",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-PAK-14",
+   "name": "Vengaya Pakoda",
+   "tamil": "வெங்காய பக்கோடா",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Crisp onion pakoda clusters, fried twice to stay that way.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-BOO-15",
+   "name": "Kara Boondi",
+   "tamil": "கார பூந்தி",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Tiny gram-flour pearls with peanut, cashew and curry leaf.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-ACH-16",
+   "name": "Achu Murukku (Rose Cookies)",
+   "tamil": "அச்சு முறுக்கு",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Flower-shaped rice and coconut-milk crisps, pressed on a hot iron.",
+   "leadDays": 3,
+   "diet": [
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-DIA-17",
+   "name": "Maida Biscuit (Diamond Cuts)",
+   "tamil": "டயமண்ட் பிஸ்கட்",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Sweet-salt fried diamonds — the simplest thing we make.",
+   "leadDays": 2,
+   "diet": [],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-MAS-18",
+   "name": "Masala Kadalai",
+   "tamil": "மசால் கடலை",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Peanuts in a crisp spiced gram-flour shell.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free",
+    "high-protein"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-BAN-19",
+   "name": "Nendran Banana Chips",
+   "tamil": "நேந்திரம் காய் சிப்ஸ்",
+   "collection": "savouries",
+   "bestseller": true,
+   "blurb": "Kerala Nendran plantain, sliced into coconut oil over the pan.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-PEP-20",
+   "name": "Pepper Banana Chips",
+   "tamil": "மிளகு வாழைக்காய் சிப்ஸ்",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "The same chips, finished with coarse black pepper.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "SAV-JAC-21",
+   "name": "Jackfruit Chips",
+   "tamil": "பலாக்காய் சிப்ஸ்",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Raw jackfruit in coconut oil — sweet, nutty, slightly addictive.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "SAV-TAP-22",
+   "name": "Tapioca Chips",
+   "tamil": "மரவள்ளி சிப்ஸ்",
+   "collection": "savouries",
+   "bestseller": false,
+   "blurb": "Kappa chips with chilli salt — thin, pale and very crisp.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-IDL-01",
+   "name": "Idli Podi",
+   "tamil": "இட்லி பொடி",
+   "collection": "podis",
+   "bestseller": true,
+   "blurb": "The original milagai podi — urad dal, chana dal, sesame and red chilli.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-MUR-02",
+   "name": "Murungai Keerai Podi",
+   "tamil": "முருங்கை கீரை பொடி",
+   "collection": "podis",
+   "bestseller": true,
+   "blurb": "Drumstick (moringa) leaf podi — the most nutrient-dense thing we sell.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-POO-03",
+   "name": "Poondu Idli Podi",
+   "tamil": "பூண்டு இட்லி பொடி",
+   "collection": "podis",
+   "bestseller": true,
+   "blurb": "Idli podi with a heavy hand of roasted garlic.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "POD-KAR-04",
+   "name": "Karuveppilai Podi",
+   "tamil": "கருவேப்பிலை பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Curry leaf podi — dark, aromatic, good for hair and iron alike.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-KOT-05",
+   "name": "Kothamalli Podi",
+   "tamil": "கொத்தமல்லி பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Coriander-leaf podi, bright and grassy against the dals.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "POD-PAR-06",
+   "name": "Paruppu Podi",
+   "tamil": "பருப்பு பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Toor and moong dal podi — the mildest, and the children's favourite.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free",
+    "high-protein"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "POD-ELL-07",
+   "name": "Ellu Podi",
+   "tamil": "எள்ளு பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Black sesame podi — earthy, calcium-dense, deeply savoury.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-FLX-08",
+   "name": "Flax Seed Podi",
+   "tamil": "ஆளி விதை பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Roasted flax ground with dal and chilli — omega-3 by the spoon.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-PUD-09",
+   "name": "Pudina Podi",
+   "tamil": "புதினா பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Mint podi — cooling against the chilli, excellent with curd rice.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "POD-RAS-10",
+   "name": "Rasam Podi",
+   "tamil": "ரசம் பொடி",
+   "collection": "podis",
+   "bestseller": true,
+   "blurb": "House rasam blend — pepper and cumin forward, coriander behind.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-SAM-11",
+   "name": "Sambar Podi",
+   "tamil": "சாம்பார் பொடி",
+   "collection": "podis",
+   "bestseller": true,
+   "blurb": "Coriander-led sambar blend with fenugreek and curry leaf.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-VAT-12",
+   "name": "Vathal Kuzhambu Podi",
+   "tamil": "வத்தல் குழம்பு பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "For tamarind kuzhambu — dark, sour-hot and thick-bodied.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "POD-PUL-13",
+   "name": "Puliyodharai Podi",
+   "tamil": "புளியோதரை பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Tamarind rice mix — temple prasadam, ready in four minutes.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-KUZ-14",
+   "name": "Kuzhambu Milagai Thool",
+   "tamil": "குழம்பு மிளகாய் தூள்",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "The all-purpose gravy chilli powder of every Tamil kitchen.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "POD-MIL-15",
+   "name": "Milagu Podi",
+   "tamil": "மிளகு பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Pepper and cumin podi — no chilli, all warmth.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-VAN-16",
+   "name": "Vangi Bath Podi",
+   "tamil": "வாங்கி பாத் பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Brinjal rice masala with cinnamon, clove and dry coconut.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "POD-CHU-17",
+   "name": "Coconut Chutney Podi",
+   "tamil": "தேங்காய் சட்னி பொடி",
+   "collection": "podis",
+   "bestseller": false,
+   "blurb": "Instant chutney — add water, add nothing else.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "PIC-AVA-01",
+   "name": "Avakkai Mango Pickle",
+   "tamil": "ஆவக்காய்",
+   "collection": "pickles",
+   "bestseller": true,
+   "blurb": "Raw mango in mustard, chilli and gingelly oil. The benchmark pickle.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "PIC-MAA-02",
+   "name": "Maavadu (Baby Mango)",
+   "tamil": "மாவடு",
+   "collection": "pickles",
+   "bestseller": true,
+   "blurb": "Whole tender mangoes cured in brine — sour, crunchy, seasonal.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-THO-03",
+   "name": "Mango Thokku",
+   "tamil": "மாங்காய் தொக்கு",
+   "collection": "pickles",
+   "bestseller": true,
+   "blurb": "Grated raw mango cooked down to a spreadable thokku.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-CUT-04",
+   "name": "Cut Mango Pickle",
+   "tamil": "மாங்காய் ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Everyday mango pickle — softer and less fierce than avakkai.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-LEM-05",
+   "name": "Lemon Pickle",
+   "tamil": "எலுமிச்சை ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": true,
+   "blurb": "Salt-cured lemon, matured until the rind turns soft and dark.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-LIM-06",
+   "name": "Lime & Garlic Pickle",
+   "tamil": "பூண்டு எலுமிச்சை ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Lime cured with whole garlic cloves — sharp and pungent together.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "PIC-NAR-07",
+   "name": "Narthangai Pickle",
+   "tamil": "நார்த்தங்காய் ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Citron pickle — bitter, sour and famously good for digestion.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-POO-08",
+   "name": "Poondu Pickle",
+   "tamil": "பூண்டு ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Whole garlic cloves slow-cooked in tamarind and chilli.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "PIC-INJ-09",
+   "name": "Inji Pickle",
+   "tamil": "இஞ்சி ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Ginger pickle with jaggery and tamarind — the Onam sadya staple.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-TOM-10",
+   "name": "Tomato Thokku",
+   "tamil": "தக்காளி தொக்கு",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Tomatoes cooked down to a thick, oil-sealed thokku.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-GON-11",
+   "name": "Gongura Pickle",
+   "tamil": "கொங்குரா ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Sorrel leaf pickle from Andhra — sour on its own, no tamarind needed.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "PIC-NEL-12",
+   "name": "Nellikai Pickle",
+   "tamil": "நெல்லிக்காய் ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Gooseberry (amla) pickle — astringent, bracing, vitamin C dense.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-KAT-13",
+   "name": "Kathirikkai Thokku",
+   "tamil": "கத்திரிக்காய் தொக்கு",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Brinjal thokku, smoky and thick, closer to a relish than a pickle.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "PIC-MIX-14",
+   "name": "Mixed Vegetable Pickle",
+   "tamil": "கலவை ஊறுகாய்",
+   "collection": "pickles",
+   "bestseller": false,
+   "blurb": "Carrot, cauliflower, green chilli and mango in one jar.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "MIL-RAG-01",
+   "name": "Ragi Laddu",
+   "tamil": "ராகி லட்டு",
+   "collection": "millets",
+   "bestseller": true,
+   "blurb": "Finger millet, jaggery and ghee — the after-school laddu.",
+   "leadDays": 3,
+   "diet": [
+    "millet",
+    "gluten-free",
+    "no-refined-sugar",
+    "jaggery",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-KAM-02",
+   "name": "Kambu Laddu",
+   "tamil": "கம்பு லட்டு",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Pearl millet laddu — warming, iron-rich, made for winter.",
+   "leadDays": 3,
+   "diet": [
+    "millet",
+    "gluten-free",
+    "no-refined-sugar",
+    "jaggery",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-THI-03",
+   "name": "Thinai Laddu",
+   "tamil": "தினை லட்டு",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Foxtail millet laddu with almond and palm jaggery.",
+   "leadDays": 3,
+   "diet": [
+    "millet",
+    "gluten-free",
+    "no-refined-sugar",
+    "jaggery",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-MUR-04",
+   "name": "Millet Murukku",
+   "tamil": "சிறுதானிய முறுக்கு",
+   "collection": "millets",
+   "bestseller": true,
+   "blurb": "Murukku pressed from a five-millet flour instead of rice.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "MIL-RAM-05",
+   "name": "Ragi Murukku",
+   "tamil": "ராகி முறுக்கு",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Almost-black ragi spirals, mild and mineral.",
+   "leadDays": 2,
+   "diet": [
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "MIL-SAT-06",
+   "name": "Sathu Maavu Health Mix",
+   "tamil": "சத்து மாவு",
+   "collection": "millets",
+   "bestseller": true,
+   "blurb": "The twenty-ingredient health mix — millets, pulses, nuts and seeds.",
+   "leadDays": 3,
+   "diet": [
+    "millet",
+    "high-fibre",
+    "high-protein"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-RML-07",
+   "name": "Ragi Malt Mix",
+   "tamil": "ராகி மால்ட்",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Sprouted and roasted ragi — a two-minute breakfast.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-DOS-08",
+   "name": "Millet Dosa Mix",
+   "tamil": "சிறுதானிய தோசை மாவு",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Instant dosa batter base — soak thirty minutes, no fermenting.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-ADA-09",
+   "name": "Millet Adai Mix",
+   "tamil": "சிறுதானிய அடை மாவு",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Protein-heavy adai mix — four dals, five millets, ready-spiced.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-protein",
+    "high-fibre"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "MIL-UPM-10",
+   "name": "Varagu Upma Mix",
+   "tamil": "வரகு உப்புமா",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Kodo millet cracked for upma, with the seasoning already in.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "MIL-SAM-11",
+   "name": "Samai Rice",
+   "tamil": "சாமை அரிசி",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Little millet, unpolished — a one-for-one rice replacement.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-THR-12",
+   "name": "Thinai Rice",
+   "tamil": "தினை அரிசி",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Foxtail millet — the mildest millet, and the easiest swap.",
+   "leadDays": 2,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-COO-13",
+   "name": "Millet Jaggery Cookies",
+   "tamil": "சிறுதானிய குக்கீஸ்",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Baked, not fried — millet flour, jaggery and ghee.",
+   "leadDays": 3,
+   "diet": [
+    "millet",
+    "no-refined-sugar",
+    "jaggery",
+    "high-fibre"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "MIL-VAD-14",
+   "name": "Kambu Vadam",
+   "tamil": "கம்பு வடாம்",
+   "collection": "millets",
+   "bestseller": false,
+   "blurb": "Sun-dried millet crisps — fry at home in sixty seconds.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "millet",
+    "gluten-free"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "CMB-FES-01",
+   "name": "Grand Festival Hamper",
+   "tamil": "பண்டிகை பரிசு",
+   "collection": "combos",
+   "bestseller": true,
+   "blurb": "Eight items across sweets and savouries in one ribboned box.",
+   "leadDays": 5,
+   "diet": [],
+   "spice": 2
+  },
+  {
+   "sku": "CMB-POD-02",
+   "name": "Podi Sampler — Six Jars",
+   "tamil": "பொடி தொகுப்பு",
+   "collection": "combos",
+   "bestseller": true,
+   "blurb": "Six 200g podis, including idli podi and murungai podi.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 2
+  },
+  {
+   "sku": "CMB-PIC-03",
+   "name": "Pickle Trio",
+   "tamil": "ஊறுகாய் மூன்று",
+   "collection": "combos",
+   "bestseller": false,
+   "blurb": "Avakkai, lemon and mango thokku — the three that never last.",
+   "leadDays": 3,
+   "diet": [
+    "vegan",
+    "gluten-free"
+   ],
+   "spice": 3
+  },
+  {
+   "sku": "CMB-KAR-04",
+   "name": "Karupatti Discovery Box",
+   "tamil": "கருப்பட்டி பெட்டி",
+   "collection": "combos",
+   "bestseller": true,
+   "blurb": "Five palm-jaggery sweets, not a gram of refined sugar between them.",
+   "leadDays": 5,
+   "diet": [
+    "no-refined-sugar",
+    "jaggery"
+   ],
+   "spice": 0
+  },
+  {
+   "sku": "CMB-MIL-05",
+   "name": "Millet Starter Kit",
+   "tamil": "சிறுதானிய தொகுப்பு",
+   "collection": "combos",
+   "bestseller": false,
+   "blurb": "Health mix, dosa mix, two millet rices and a bag of millet murukku.",
+   "leadDays": 4,
+   "diet": [
+    "millet",
+    "high-fibre"
+   ],
+   "spice": 1
+  },
+  {
+   "sku": "CMB-SAV-06",
+   "name": "Savoury Party Pack",
+   "tamil": "காரம் பெட்டி",
+   "collection": "combos",
+   "bestseller": false,
+   "blurb": "Six savouries in party-sized bags — mixture, murukku, thattai and more.",
+   "leadDays": 3,
+   "diet": [],
+   "spice": 2
+  },
+  {
+   "sku": "CMB-SWK-07",
+   "name": "Sweet & Karam Box",
+   "tamil": "இனிப்பு காரம் பெட்டி",
+   "collection": "combos",
+   "bestseller": true,
+   "blurb": "Two sweets, two savouries — the classic Tamil gift pairing.",
+   "leadDays": 4,
+   "diet": [],
+   "spice": 2
+  },
+  {
+   "sku": "CMB-PON-08",
+   "name": "Pongal Gift Box",
+   "tamil": "பொங்கல் பரிசு",
+   "collection": "combos",
+   "bestseller": false,
+   "blurb": "Harvest-festival box — jaggery sweets, millet rice and sugarcane-season pickles.",
+   "leadDays": 5,
+   "diet": [
+    "no-refined-sugar",
+    "jaggery"
+   ],
+   "spice": 2
+  }
+ ]
+}
