@@ -13,6 +13,9 @@ Social campaign kits for BigMo products — ready-to-post Instagram and LinkedIn
 | 7 | Ledger Book (`LedgerBookPilot`) | [`campaigns/ledgerbook`](campaigns/ledgerbook/CAMPAIGN.md) | ✅ ready |
 | ★ | **BigMo umbrella** — all seven, one rule | [`campaigns/bigmo`](campaigns/bigmo/CAMPAIGN.md) | ✅ ready |
 
+## Post text
+Every campaign has a **`POSTS.md`** — ready-to-paste text for every asset (LinkedIn, Instagram, stories, reels, month-two, explainers), with first comments, alt text and that product's rules. Start with [`campaigns/bigmo/POSTS.md`](campaigns/bigmo/POSTS.md).
+
 ## Other platforms
 See [`PLATFORMS.md`](PLATFORMS.md) — X, Facebook, YouTube (incl. Shorts) and TikTok: file mapping, rendered banners/headers/thumbnails (`tools/platforms.py`) and per-product copy.
 
