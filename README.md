@@ -13,6 +13,9 @@ Social campaign kits for BigMo products — ready-to-post Instagram and LinkedIn
 | 7 | Ledger Book (`LedgerBookPilot`) | [`campaigns/ledgerbook`](campaigns/ledgerbook/CAMPAIGN.md) | ✅ ready |
 | ★ | **BigMo umbrella** — all seven, one rule | [`campaigns/bigmo`](campaigns/bigmo/CAMPAIGN.md) | ✅ ready |
 
+## Other platforms
+See [`PLATFORMS.md`](PLATFORMS.md) — X, Facebook, YouTube (incl. Shorts) and TikTok: file mapping, rendered banners/headers/thumbnails (`tools/platforms.py`) and per-product copy.
+
 ## How it works
 `tools/socialkit.py` is a small Pillow + ffmpeg layout kit (browser/phone frames, brand type, eased push-in video with cross-fades). Each campaign's `build.py` holds that product's brand tokens, copy and screenshot picks, and writes to `campaigns/<app>/output/`.
 
