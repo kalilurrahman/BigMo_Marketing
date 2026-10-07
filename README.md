@@ -6,8 +6,8 @@ Social campaign kits for BigMo products — ready-to-post Instagram and LinkedIn
 |---|---|---|---|
 | 1 | LakshyaPrep (`academy-kpm-spark`) | [`campaigns/lakshyaprep`](campaigns/lakshyaprep/CAMPAIGN.md) | ✅ ready |
 | 2 | AI MarketPulse (`marketpulse-relay`) | [`campaigns/marketpulse`](campaigns/marketpulse/CAMPAIGN.md) | ✅ ready |
-| 3 | DesiSquare (`desisquarev5-product`) | `campaigns/desisquare` | next |
-| 4 | EOTPCS (`eotpcs-…`) | `campaigns/eotpcs` | planned |
+| 3 | DesiSquare (`desisquarev5-product`) | [`campaigns/desisquare`](campaigns/desisquare/CAMPAIGN.md) | ✅ ready |
+| 4 | EOTPCS (`eotpcs-…`) | `campaigns/eotpcs` | next |
 | 5 | Niche e-commerce (`niche-ecommerce-flow`) | `campaigns/ecommerce` | planned |
 | 6 | KPM Rentals (`kpm-rentals`) | `campaigns/kpm-rentals` | planned |
 | 7 | LedgerBook (`LedgerBookPilot`) | `campaigns/ledgerbook` | planned |
