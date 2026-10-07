@@ -10,7 +10,7 @@ Record each line to roughly its slot; the video holds each slide for the line's 
 | 2 | 00:07 | 00:13 | It reads your bank, and every line gets a suggested category, a confidence score and a reason. | `carousel-ai-proposes/slide-02.png` |
 | 3 | 00:13 | 00:18 | When it isn't sure, it asks you instead of guessing. | `carousel-ai-proposes/slide-03.png` |
 | 4 | 00:18 | 00:22 | Only balanced entries post. Debits equal credits, every time. | `carousel-ai-proposes/slide-04.png` |
-| 5 | 00:21 | 00:27 | Posted entries can't be edited. Mistakes are reversed, and both stay on the record. | `phase2/post-02-journal-history.png` |
+| 5 | 00:22 | 00:27 | Posted entries can't be edited. Mistakes are reversed, and both stay on the record. | `phase2/post-02-journal-history.png` |
 | 6 | 00:27 | 00:32 | Cash, profit and your thirteen-week runway are computed live from the journal. | `carousel-ai-proposes/slide-05.png` |
 | 7 | 00:32 | 00:40 | The copilot can read your books and suggest. It has no tool that can post, send or move money. | `carousel-ai-proposes/slide-06.png` |
 | 8 | 00:40 | 00:45 | Invoice reminders are drafted for you. Nothing goes out until you send it. | `phase2/post-01-invoice-reminders.png` |
